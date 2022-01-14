@@ -1,3 +1,6 @@
+.homescreen{
+  background-image: linear-gradient(135deg, #e7627d 0%, #b8235a 25%, #801357 50%, #3d1635 75%, #1c1a27 100%);
+}
 * {
   margin: 0;
   padding: 0;
