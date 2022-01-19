@@ -134,9 +134,31 @@
     </div>
   </div>
   <hr>
-  <h1 class="fixed">Messages</h1>
+  <h1>Messages</h1>
   <hr>
-  <h1 class="fixed">Location</h1>
+  <h1>Location</h1>
+  <hr>
+  <main role="main">
+      	<div class="contentWrapper pt-5">
+      		<form action="" method="post" name="signUpForm" id="signUpForm">
+      			<fieldset id="signUp">
+      				<legend>Sign Up!</legend>
+
+      					<label for="nameField">Name:</label>
+      					<input id="nameField" name="nameField" type="text" class="textfield" value="First and Last Name" onFocus="clearName();" onBlur="resetName();">
+
+      					<label for="phoneField">Phone:</label>
+      					<input id="phoneField" name="phoneField" type="text" class="textfield" value="example: 212-123-1234" onFocus="clearNumber();" onBlur="resetNumber();">
+
+      					<label for="emailField">Email:</label>
+      					<input id="emailField" name="emailField" type="text" class="textfield" value="example: asianjs@gmail.com" onFocus="clearEmail();" onBlur="resetEmail();">
+
+      					<input id="submit" type="submit" name="submit" value="Sign Me Up!">
+
+      			</fieldset>
+      		</form>
+      	</div>
+      </main>
   <footer class="py-4 bg-dark text-white-50">
     <div class="container text-center">
       <small>Copyright &copy; Little Birds</small>
