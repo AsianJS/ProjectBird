@@ -131,14 +131,13 @@
 .textfield:focus {
 	background: #FBF8D2;
 }
-.centered{
-  text-align:centered;
-}
+
 .contentWrapper {
 	width: 750px;
 	padding: 0 20px;
 	margin: 0 auto;
 	position: relative;
+
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 100px;
