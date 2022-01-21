@@ -64,9 +64,7 @@
 .textfield:focus {
 	background: #FBF8D2;
 }
-.centered{
-  text-align:centered;
-}
+
 .contentWrapper {
 	width: 750px;
 	padding: 0 20px;
@@ -81,4 +79,6 @@
     background-size: 100%, 100%;
     border-radius: 50%;
     border: 1px solid black;
+}
+body{
 }
