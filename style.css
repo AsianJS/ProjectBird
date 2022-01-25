@@ -10,9 +10,10 @@
   text-align: center;
   width: 100vw;
   font-size: 24px;
+  margin-top: 100px;
 }
 .parallax {
-  height: 60vh;
+  height: 100vh;
   -webkit-perspective: 1px;
   perspective: 1px;
 }
@@ -80,5 +81,25 @@
     border-radius: 50%;
     border: 1px solid black;
 }
-body{
+#press-quote {
+	font-style: italic;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	font-weight: 300;
+	margin: 1.8rem 0;
+	border-left: 4px solid #53b7ea;
+	padding-left: 1em;
+}
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
 }
