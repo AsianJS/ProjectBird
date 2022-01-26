@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" href="style.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script>
     function clearName() {
@@ -59,19 +59,19 @@
             <a class="nav-link" href="#carouselExampleCaptions">Products</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Reviews</a>
+            <a class="nav-link" href="#review">Reviews</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Mission Statement</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Location</a>
+            <a class="nav-link" href="#location">Location</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sign Up</a>
+            <a class="nav-link" href="#signup">Sign Up</a>
           </li>
         </ul>
       </div>
@@ -94,38 +94,22 @@
       <center>
         <div class="carousel-item active">
           <img src="Images\1.png" class="w-50 d-block" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
         </div>
         <div class="carousel-item">
           <img src="Images\2.png" class="w-50 d-block" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
+
         </div>
         <div class="carousel-item">
           <img src="Images\3.png" class="w-50 d-block" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
+
         </div>
         <div class="carousel-item">
           <img src="Images\4.png" class="w-50 d-block" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
+
         </div>
         <div class="carousel-item">
           <img src="Images\5.png" class="w-50 d-block" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
+
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -137,39 +121,44 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <hr>
   <div class="container">
     <div class="row">
       <div class="col">
-        <div class="card" style="width: 30rem;">
-          <div class="card-body">
             <center>
-              <h5 class="card-title"><u>About</u></h5>
+              <h5 class="title" id="about"><b>About</b></h5>
             </center>
-            <p class="card-text">Our handcrafted classic, wooden toys are designed to bring out that slowness in your home. From Planes, trains, automobiles and boats, playsets, all of our wooden toys are designed to spark imagination. The going may
+            <p class="about">Our handcrafted classic, wooden toys are designed to bring out that slowness in your home. From Planes, trains, automobiles and boats, playsets, all of our wooden toys are designed to spark imagination. The going may
               be a little slower, but oh the things you’ll see along the way!
               Since 2018, Little Bird Toys has delighted families looking for quality children’s toys. Our collection of heirloom quality products are built to stand the test of time and to be enjoyed from sibling to sibling and generation to
               generation.
             </p>
-          </div>
-        </div>
       </div>
       <div class="col">
         <div class="card mb-3">
           <div class="card-body">
             <center>
-              <h4>Reviews</h4>
+              <h4 id="review" class="title"><b>Reviews</b></h4>
             </center>
 
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <p class="card-text">My grandson requested these fun blocks for Christmas after using a similar set in his kindergarten class. He immediately started constructing the items shown on the packaging, and soon his dad was also on the
+                <p class="card-text review">My grandson requested these fun blocks for Christmas after using a similar set in his kindergarten class. He immediately started constructing the items shown on the packaging, and soon his dad was also on the
                   floor building things. The blocks looked safe and durable. - Gladzoo
-                </p>
+                </p><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
               </li>
               <li class="list-group-item">
-                <p class="card-text">All age levels love these (even grown-ups.) The block sets increase in complexity as the kids are ready for them. Two-year-olds love them just because they love magnets. Three-year-olds test them and build with
+                <p class="card-text review">All age levels love these (even grown-ups.) The block sets increase in complexity as the kids are ready for them. Two-year-olds love them just because they love magnets. Three-year-olds test them and build with
                   them. My 4-year-old now uses sets like this one to create toys while learning about magnetic properties. I've tried to get him increasingly complex sets every year and they never disappoint! - Jan MC
-                </p>
+                </p><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
               </li>
             </ul>
           </div>
@@ -181,20 +170,21 @@
         <p id="press-quote"></p>
       </div>
     </main>
-    <h1 class="text-center">Location</h1>
+    <hr>
+    <h1 class="text-center title" id="location"><b>Location</b></h1>
     <!--Google map-->
     <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.4992626448434!2d-74.20031088461816!3d39.95258897942184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c19de104aca169%3A0x3a79f18c2f7c1fec!2s43%20Main%20St%2C%20Toms%20River%2C%20NJ%2008753!5e0!3m2!1sen!2sus!4v1643123481693!5m2!1sen!2sus"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
-
+    <hr>
     <!--Google Maps-->
     <main role="main">
       <div class="contentWrapper">
         <form action="" method="post" name="signUpForm" id="signUpForm">
           <fieldset id="signUp">
-            <legend>Sign Up For Text Alerts</legend>
+            <legend id="signup">Sign Up For Text Alerts</legend>
 
             <label for="nameField">Name:</label>
             <input id="nameField" name="nameField" type="text" class="textfield" value="First and Last Name" onFocus="clearName();" onBlur="resetName();">

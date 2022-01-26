@@ -103,3 +103,23 @@ height:100%;
 width:100%;
 position:absolute;
 }
+.about{
+  font-size:25px;
+  font-family:"Garamond"
+}
+.title{
+  font-family:"Courier New";
+  font-size:30px;
+}
+.review{
+  font-size:17px;
+  font-family:"Garamond";
+}
+.checked {
+  color: orange;
+}
+
+.carousel-caption {
+  color: black;
+  text-align: center;
+}
