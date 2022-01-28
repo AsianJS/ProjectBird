@@ -30,7 +30,8 @@
 }
 #signUp legend {
 	font-size: 2em;
-	font-weight: 200;
+  font-family: "Courier New";
+	font-weight: 400;
 	padding: 0 .2em;
 }
 #signUp label {
@@ -48,10 +49,10 @@
 	font-size: 1em;
 	color: #FFF;
 	text-transform: uppercase;
-	background: #a2a50d;
+	background: #3d74cc;
 	padding: .8em 1em .7em;
 	border: 0;
-	border-bottom: 3px solid #7d820c;
+	border-bottom: 3px solid #224173;
 	margin-top: 15px;
 }
 .textfield {
@@ -110,7 +111,9 @@ position:absolute;
 .title{
   font-family:"Courier New";
   font-size:30px;
+  scroll-margin-top: 100px;
 }
+
 .review{
   font-size:17px;
   font-family:"Garamond";

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script>
     function clearName() {
@@ -47,7 +47,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="Images\Alternate Logo 1.png" width="60" height="54" class="d-inline-block align-text-top"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,10 +65,13 @@
             <a class="nav-link" href="#review">Reviews</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mission Statement</a>
+            <a class="nav-link" href="#information">Information</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#location">Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hours">Store Hours</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#signup">Sign Up</a>
@@ -81,7 +84,7 @@
     <div class="fixed"><img src="Images\Main Logo.png" width="400px" height="400px"></div>
   </div>
   <hr>
-  <div id="carouselExampleCaptions" id="hello" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleCaptions" id="hello" class="carousel slide title" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -125,14 +128,14 @@
   <div class="container">
     <div class="row">
       <div class="col">
-            <center>
-              <h5 class="title" id="about"><b>About</b></h5>
-            </center>
-            <p class="about">Our handcrafted classic, wooden toys are designed to bring out that slowness in your home. From Planes, trains, automobiles and boats, playsets, all of our wooden toys are designed to spark imagination. The going may
-              be a little slower, but oh the things you’ll see along the way!
-              Since 2018, Little Bird Toys has delighted families looking for quality children’s toys. Our collection of heirloom quality products are built to stand the test of time and to be enjoyed from sibling to sibling and generation to
-              generation.
-            </p>
+        <center>
+          <h5 class="title" id="about"><b>About</b></h5>
+        </center>
+        <p class="about">Our handcrafted classic, wooden toys are designed to bring out that slowness in your home. From Planes, trains, automobiles and boats, playsets, all of our wooden toys are designed to spark imagination. The going may
+          be a little slower, but oh the things you’ll see along the way!
+          Since 2018, Little Bird Toys has delighted families looking for quality children’s toys. Our collection of heirloom quality products are built to stand the test of time and to be enjoyed from sibling to sibling and generation to
+          generation.
+        </p>
       </div>
       <div class="col">
         <div class="card mb-3">
@@ -143,22 +146,24 @@
 
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <p class="card-text review">My grandson requested these fun blocks for Christmas after using a similar set in his kindergarten class. He immediately started constructing the items shown on the packaging, and soon his dad was also on the
+                <p class="card-text review">My grandson requested these fun blocks for Christmas after using a similar set in his kindergarten class. He immediately started constructing the items shown on the packaging, and soon his dad was also on
+                  the
                   floor building things. The blocks looked safe and durable. - Gladzoo
                 </p><span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
               </li>
               <li class="list-group-item">
-                <p class="card-text review">All age levels love these (even grown-ups.) The block sets increase in complexity as the kids are ready for them. Two-year-olds love them just because they love magnets. Three-year-olds test them and build with
+                <p class="card-text review">All age levels love these (even grown-ups.) The block sets increase in complexity as the kids are ready for them. Two-year-olds love them just because they love magnets. Three-year-olds test them and build
+                  with
                   them. My 4-year-old now uses sets like this one to create toys while learning about magnetic properties. I've tried to get him increasingly complex sets every year and they never disappoint! - Jan MC
                 </p><span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
               </li>
             </ul>
           </div>
@@ -171,43 +176,99 @@
       </div>
     </main>
     <hr>
-    <h1 class="text-center title" id="location"><b>Location</b></h1>
-    <!--Google map-->
-    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.4992626448434!2d-74.20031088461816!3d39.95258897942184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c19de104aca169%3A0x3a79f18c2f7c1fec!2s43%20Main%20St%2C%20Toms%20River%2C%20NJ%2008753!5e0!3m2!1sen!2sus!4v1643123481693!5m2!1sen!2sus"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-    <hr>
-    <!--Google Maps-->
-    <main role="main">
-      <div class="contentWrapper">
-        <form action="" method="post" name="signUpForm" id="signUpForm">
-          <fieldset id="signUp">
-            <legend id="signup">Sign Up For Text Alerts</legend>
-
-            <label for="nameField">Name:</label>
-            <input id="nameField" name="nameField" type="text" class="textfield" value="First and Last Name" onFocus="clearName();" onBlur="resetName();">
-
-            <label for="phoneField">Phone:</label>
-            <input id="phoneField" name="phoneField" type="text" class="textfield" value="example: 212-123-1234" onFocus="clearNumber();" onBlur="resetNumber();">
-
-            <label for="emailField">Email:</label>
-            <input id="emailField" name="emailField" type="text" class="textfield" value="example: asianjs@gmail.com" onFocus="clearEmail();" onBlur="resetEmail();">
-
-            <input id="submit" type="submit" name="submit" value="Sign Me Up!">
-
-          </fieldset>
-        </form>
+    <center>
+      <h4 id="information" class="title"><b>Information</b></h4>
+    </center>
+    <div class="col">
+      <div class="card mb-3">
+        <div class="card-body">
+          <center>
+            <h4 class="title"><b>Quality</b></h4>
+            <p class="review">You won’t find plastic or batteries here. Our handmade toys are carefully crafted from sustainable Baltic birch wood and are designed, manufactured, and tested in the U.S.A – right here in Toms River, NJ. Each
+              handcrafted item is made to heirloom quality, designed to not only withstand the wear of childhood, but to be strong enough to pass on from sibling to sibling and generation to generation. Hold one of our wooden toys in your hand,
+              You’ll feel the difference that our makers bring to each handcrafted piece.
+              All of our products meet or exceed Consumer Product Safety standards and are finished with toxin-free paints that meet CA-prop65. Our toys undergo physical, mechanical, and fire-safety testing guided by ASTM standards. And every piece
+              we craft sustains our own in-house physical testing procedure to ensure unmatched durability and stability.
+            </p>
+          </center>
+        </div>
       </div>
-    </main>
-    <footer class="py-4 bg-dark text-white-50">
-      <div class="container text-center">
-        <small>Copyright &copy; Little Birds</small>
-      </div>
-    </footer>
-    <script href="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <div class="col">
+        <div class="card mb-3">
+          <div class="card-body">
+            <center>
+              <h4 class="title"><b>Sustainability</b></h4>
+              <p class="review">Wood is an important part of who we are. Early on we chose wood for its inherently durable qualities with the intention of making toys and furniture that could withstand the test of time – and stay out of the landfill.
+                Our wooden toys are designed to withstand the wear of play and to be safely enjoyed from generation to generation.
+                Our process of sourcing, manufacturing, and shipping only within the U.S. allows us to support our national economy and reduce the often-hefty carbon emissions that come with international trade and shipping
+              </p>
+            </center>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3">
+            <div class="card-body">
+              <center>
+                <h4 class="title"><b>Visit Us</b></h4>
+                <p class="review">You’re more than a customer to us – you’re a part of our family! We love hearing stories of how your children and grandchildren are playing with our toys.
+                  Visit us at our Toms River, NJ toy store! All of our toys are made on-site at this location and you’ll find an old-fashioned toy store with cozy corners to play and explore – and time for us to get to know each other!
+                </p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <h1 class="text-center title" id="location"><b>Location</b></h1>
+        <!--Google map-->
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.4992626448434!2d-74.20031088461816!3d39.95258897942184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c19de104aca169%3A0x3a79f18c2f7c1fec!2s43%20Main%20St%2C%20Toms%20River%2C%20NJ%2008753!5e0!3m2!1sen!2sus!4v1643123481693!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <hr>
+        <center>
+          <h4 class="title" id="hours"><b>Store Hours</b></h4>
+          <p class="about">
+            WEEKDAYS
+            <br>
+            7:00 AM to 4:30 PM
+            <br>
+            SATURDAY
+            <br>
+            10:00 AM to 2:00 PM
+          </p>
+        </center>
+        <hr>
+
+        <!--Google Maps-->
+        <main role="main">
+          <div class="contentWrapper">
+            <form action="" method="post" name="signUpForm" id="signUpForm">
+              <fieldset id="signUp">
+                <legend id="signup"><b>Sign Up</b></legend>
+
+                <label for="nameField">Name:</label>
+                <input id="nameField" name="nameField" type="text" class="textfield" value="First and Last Name" onFocus="clearName();" onBlur="resetName();">
+
+                <label for="phoneField">Phone:</label>
+                <input id="phoneField" name="phoneField" type="text" class="textfield" value="example: 212-123-1234" onFocus="clearNumber();" onBlur="resetNumber();">
+
+                <label for="emailField">Email:</label>
+                <input id="emailField" name="emailField" type="text" class="textfield" value="example: asianjs@gmail.com" onFocus="clearEmail();" onBlur="resetEmail();">
+
+                <input id="submit" type="submit" name="submit" value="Sign Me Up!">
+
+              </fieldset>
+            </form>
+          </div>
+        </main>
+        <footer class="py-4 bg-dark text-white-50">
+          <div class="container text-center">
+            <small>Copyright &copy; Little Birds</small>
+          </div>
+        </footer>
+        <script href="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 
